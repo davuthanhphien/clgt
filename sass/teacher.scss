@@ -1,0 +1,155 @@
+
+.c-nav-calendar{
+	margin-bottom: 30px;
+	&__week{
+		margin-bottom: 5px;
+		border:2px solid #ccc;
+		border-radius:15px;
+		.week-nav{
+			display: flex;
+			height: 50px;
+			&__control{
+				min-width: 0;
+				font-size: 20px;
+				width: 50px;
+				text-align: center;
+				color: #ccc;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				&:hover{
+					color: #007bff;
+				}
+			}
+			&__current{
+				min-width: 0;
+				text-align: center;
+				flex: 1 1 auto;
+				height: 100%;
+			}
+			&__title,
+			&__input-title{
+				font-size: 20px;
+				font-weight: 700;
+				color: $gray;
+			}
+			&__input-title{
+				border: 0;
+				display: block;
+				width: 100%;
+				text-align: center;
+				height: 100%;
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+	}
+	&__days{
+		border-radius:50px;
+		overflow: hidden;
+		border: 2px solid #ccc;
+		@media (max-width:$viewport-mobile) {
+			border-radius:10px;
+		}
+		.single-week{
+			display: flex;
+			flex-flow: wrap;
+		}
+		.line-divider{
+			flex: 0 0 100%;
+		}
+		.single-day{
+			width: 14.27%;
+			position: relative;
+			display: block;
+			padding: 0px 8px;
+			border:2px solid #fff;
+			background-color: #ffcf61;
+			@media (max-width:$viewport-mobile) {
+				width: 33.33%;
+			}
+			&::after {
+				content: "";
+				position: absolute;
+			    width: 2px;
+			    height: calc(100% + 4px);
+			    left: -3px;
+				top: -2px;
+				background-color: #ccc;
+			}
+			&:first-child {
+				border-radius:50px 0 0 50px;
+				@media (max-width:$viewport-mobile) {
+					border-radius:10px 0 0 0;
+				}
+				&::after {
+					display: none;
+				}
+			}
+			&:last-child {
+				border-radius:0 50px 50px 0;
+				@media (max-width:$viewport-mobile) {
+					width: 100%;
+					border-radius: 0 0 10px 10px;
+				}
+				
+			}
+			&:nth-child(3) {
+				@media (max-width:$viewport-mobile) {
+					border-radius: 0 10px 0 0;
+				}
+			}
+			&__th{
+				min-width: 1px;
+				height: 18px;
+				line-height: 18px;
+				font-size: 14px;
+				color: #ccc;
+				position: absolute;
+				left: 10px;
+				top: 0;
+				color: $gray;
+			}
+			&__ng{
+				position: relative;
+				margin: 0 auto;
+				font-size: 18px;
+				font-weight: 700;
+				text-align: center;
+				color: $gray;
+				height: 30px;
+				width: 30px;
+				text-align: center;
+				&:before{
+					content: "";
+					display: block;
+					position: absolute;
+					top: 1px; left: 0;
+					width: 28px;
+					height: 28px;
+					background-color: transparent;
+					border-radius: 50%;
+					border: 2px solid transparent;
+				}
+			}
+			&.is-active{
+				.single-day{
+					//xx
+					&__ng{
+						&:before{
+							border-color: #ff8c2f;
+						}
+					}
+				}
+			}
+			&.is-selected{
+				background-color: #fff;
+				border-bottom-color: #fff;
+				.single-day{
+
+				}
+			}
+		}
+	}
+}

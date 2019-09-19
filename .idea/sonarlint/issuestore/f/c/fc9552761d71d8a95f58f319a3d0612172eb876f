@@ -1,0 +1,16 @@
+
+mjavascript:S2259È"PTypeError can be thrown as "responsiveSettings" might be null or undefined here.(½™ŸÌ
+gjavascript:S2259İ"ETypeError can be thrown as "touches" might be null or undefined here.(Ó´§¤øÿÿÿÿ
+ljavascript:S3403Ö"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(ÆÊüÿÿÿÿ
+njavascript:S2589Ö"LRefactor this code so that this expression does not always evaluate to true.(ÆÊüÿÿÿÿ
+rjavascript:S1117í"U"index" hides or potentially hides a variable declared in an outer scope at line 202.(¤º©æ
+tjavascript:S1117¶
+"R"i" hides or potentially hides a variable declared in an outer scope at line 1356.(ë†ş§ùÿÿÿÿ
+ojavascript:S1117£
+"R"i" hides or potentially hides a variable declared in an outer scope at line 1356.(ùÌº
+ajavascript:UnusedVariableÒ";Remove the declaration of the unused 'edgeWasHit' variable.(õçÛö
+_javascript:S1854ä"=Remove this useless assignment to local variable "slideIndex"(é¿¸˜üÿÿÿÿ
+\javascript:S1854ì"?Remove this useless assignment to local variable "centerOffset"(‹ü«‚
+kjavascript:S1871Í"NThis branch's code block is the same as the block for the branch on line 2497.(ş±°Ä
+jjavascript:S1871®"NThis branch's code block is the same as the block for the branch on line 2732.(•¾ò/
+pjavascript:S1871ÿ"NThis branch's code block is the same as the block for the branch on line 2938.(ıÛ‚Öûÿÿÿÿ
