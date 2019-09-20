@@ -1,0 +1,186 @@
+.c-calendar{
+	background-color: #ccc;
+	border-radius: 6px;
+	&__head{
+		color: #fff;
+		border-radius: 6px 6px 0 0;
+		background-color: #6c757d;
+		.nav-month{
+			&__current{
+				font-size: 20px;
+			}
+			&__go{
+				display: block;
+				line-height: 48px;
+				font-size: 24px;
+				padding: 8px 12px;
+				color: #fff;
+				background-color: #6c757d;
+				
+				&:hover{
+					background-color: #6c757d;
+				}
+				&--prev{
+					border-radius: 6px 0 0 0;
+				}
+				&--next{
+					border-radius: 0 6px 0 0;
+				}
+				
+			}
+			&__current{
+				margin: 0;
+				// font-size: 36px;
+			}
+		}
+	}
+	&__body{
+		//
+	}
+	.list-days{
+		padding: 24px 16px 8px;
+		.single-day{
+
+			
+			min-width: 0;
+			margin: 0 0 16px;
+			padding: 0 8px;
+			&__wrapper{
+				position: relative;
+				display: block;
+				background-color: #fff;
+				border-radius: 6px;
+				box-shadow: 0 1px 0 3px #ccc;
+				color: #ccc;
+			}	
+			&__tooltip{
+				position: absolute;
+				width: 80%;
+				bottom: 100%; left: 10%;
+				margin-bottom: 8px;
+				padding: 12px 16px;
+				font-size: 14px;
+				text-align: center;
+				color: #fff;
+				background-color:#ccc;
+				border-radius: 6 / 2;
+				z-index: 200;
+				opacity: 0;
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					top: 100%; left: 50%; margin-left: -12px;
+				}
+			}
+			&:hover{
+				.single-day__tooltip{
+					opacity: 1;
+				}
+			}
+			&__header{
+				
+				height: 40px;
+				padding: 0 16px;
+			}
+			&__body{
+				padding: 16px;
+			}
+			&__date{
+				margin: 0 0;
+				position: absolute;
+				width: 44px;
+				line-height: 40px;
+				font-size: 32px;
+				font-weight: 400;
+				text-align: center;
+				color: #fff;
+				text-shadow: 2px 2px 0 #ccc;
+				background-color: material-color('orange', '700');
+		
+			}
+			&__gems{
+				min-width: 0;
+				text-align: right;
+				.c-gem-icon{
+					padding-bottom: 12px;
+					&__image{
+						width: 28px;
+						height: 28px;
+					}
+					&__count{
+						margin-top: 0;
+					}
+				}
+				.gems-total{
+					margin: 12px 0 0 8px;
+					&__count{
+						font-size: 12px;
+						font-weight: 700;
+						color: #ccc;
+					}
+				}
+			}
+			&__status{
+				padding: 8px 12px;
+				height: 80px;
+				background-color: #63808e;
+				border-radius: 6px;
+				img{
+					display: block;
+					max-height: 100%;
+					max-width: 100%;
+				}
+			}
+			&--disabled{
+				.single-day__status{
+					background-color: #63808e;
+				}
+			}
+			&--opened{
+				.single-day__status{
+					background-color: #63808e;
+					// background-color: material-color('yellow', '800');
+					// background-image: linear-gradient(to right, material-color('yellow', '800'), material-color('yellow', '600'));
+				}
+			}
+			&--unlocked{
+				.single-day__status{
+					background-color: #f18d03;
+					background-image: linear-gradient(to right, #e94f1b, #f28f00);
+				}
+			}
+			&--locked{
+				.single-day__status{
+					background-color: #2f5e7a;
+					img{
+						position: relative;
+						max-height: 132%;
+						max-width: 100%;
+						// max-height: none;
+						// max-width: none;
+					}
+				}
+			}
+
+		}
+	}
+}
+.calendar-table{
+	td.is-highlighted{
+		position: relative;
+		&:before{
+			content: "";
+			display: block;
+			position: absolute;
+			left: 50%;
+			margin-left: -12px;
+			top: 50%; 
+			margin-top: -12px;
+			width: 24px;
+			height: 24px;
+			border: 2px solid #e84e1c;
+			border-radius: 50%;
+		}
+	}
+}

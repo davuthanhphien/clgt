@@ -1,0 +1,133 @@
+.c-calendar {
+  background-color: #ccc;
+  border-radius: 6px; }
+  .c-calendar__head {
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+    background-color: #6c757d; }
+    .c-calendar__head .nav-month__current {
+      font-size: 20px; }
+    .c-calendar__head .nav-month__go {
+      display: block;
+      line-height: 48px;
+      font-size: 24px;
+      padding: 8px 12px;
+      color: #fff;
+      background-color: #6c757d; }
+      .c-calendar__head .nav-month__go:hover {
+        background-color: #6c757d; }
+      .c-calendar__head .nav-month__go--prev {
+        border-radius: 6px 0 0 0; }
+      .c-calendar__head .nav-month__go--next {
+        border-radius: 0 6px 0 0; }
+    .c-calendar__head .nav-month__current {
+      margin: 0; }
+  .c-calendar .list-days {
+    padding: 24px 16px 8px; }
+    .c-calendar .list-days .single-day {
+      min-width: 0;
+      margin: 0 0 16px;
+      padding: 0 8px; }
+      .c-calendar .list-days .single-day__wrapper {
+        position: relative;
+        display: block;
+        background-color: #fff;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 1px 0 3px #ccc;
+        box-shadow: 0 1px 0 3px #ccc;
+        color: #ccc; }
+      .c-calendar .list-days .single-day__tooltip {
+        position: absolute;
+        width: 80%;
+        bottom: 100%;
+        left: 10%;
+        margin-bottom: 8px;
+        padding: 12px 16px;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        background-color: #ccc;
+        border-radius: 6 / 2;
+        z-index: 200;
+        opacity: 0; }
+        .c-calendar .list-days .single-day__tooltip:after {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -12px; }
+      .c-calendar .list-days .single-day:hover .single-day__tooltip {
+        opacity: 1; }
+      .c-calendar .list-days .single-day__header {
+        height: 40px;
+        padding: 0 16px; }
+      .c-calendar .list-days .single-day__body {
+        padding: 16px; }
+      .c-calendar .list-days .single-day__date {
+        margin: 0 0;
+        position: absolute;
+        width: 44px;
+        line-height: 40px;
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 0 #ccc;
+        background-color: material-color("orange", "700"); }
+      .c-calendar .list-days .single-day__gems {
+        min-width: 0;
+        text-align: right; }
+        .c-calendar .list-days .single-day__gems .c-gem-icon {
+          padding-bottom: 12px; }
+          .c-calendar .list-days .single-day__gems .c-gem-icon__image {
+            width: 28px;
+            height: 28px; }
+          .c-calendar .list-days .single-day__gems .c-gem-icon__count {
+            margin-top: 0; }
+        .c-calendar .list-days .single-day__gems .gems-total {
+          margin: 12px 0 0 8px; }
+          .c-calendar .list-days .single-day__gems .gems-total__count {
+            font-size: 12px;
+            font-weight: 700;
+            color: #ccc; }
+      .c-calendar .list-days .single-day__status {
+        padding: 8px 12px;
+        height: 80px;
+        background-color: #63808e;
+        border-radius: 6px; }
+        .c-calendar .list-days .single-day__status img {
+          display: block;
+          max-height: 100%;
+          max-width: 100%; }
+      .c-calendar .list-days .single-day--disabled .single-day__status {
+        background-color: #63808e; }
+      .c-calendar .list-days .single-day--opened .single-day__status {
+        background-color: #63808e; }
+      .c-calendar .list-days .single-day--unlocked .single-day__status {
+        background-color: #f18d03;
+        background-image: -webkit-gradient(linear, left top, right top, from(#e94f1b), to(#f28f00));
+        background-image: -webkit-linear-gradient(left, #e94f1b, #f28f00);
+        background-image: -o-linear-gradient(left, #e94f1b, #f28f00);
+        background-image: linear-gradient(to right, #e94f1b, #f28f00); }
+      .c-calendar .list-days .single-day--locked .single-day__status {
+        background-color: #2f5e7a; }
+        .c-calendar .list-days .single-day--locked .single-day__status img {
+          position: relative;
+          max-height: 132%;
+          max-width: 100%; }
+
+.calendar-table td.is-highlighted {
+  position: relative; }
+  .calendar-table td.is-highlighted:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #e84e1c;
+    border-radius: 50%; }

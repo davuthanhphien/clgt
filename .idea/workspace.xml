@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4461cfe-2a49-4260-8ec3-72d9d8e4233f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ninox-design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cf4006afa285052ac4793022e1a06d5f126de4b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/312847570d3890939efb9c5af940dd7e9b1dd0fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3ab23a37ff2f5d3f0397c032c9981f48158748e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d57fce52d5637f4d2353f6d2a025b2e895b004f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/8321775d26c1b74276abda7aafa418d98009580c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88fd2dd44402729af3330966aec22c954947bbb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f03fa1386d784dc29899cc5112a6ba5c81ff3cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9842aaaaebd0784d8383fd679a6d2a00eb78eee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9975fcf2503ddd3de6a17ca1b00ef54518eb0477" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d41511557ebe17d41fd4a69c933e0ab3fc5efe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c39b8363497cee26cca0813fb632087df2119539" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3a84a0f5d3ee0b75dd42c5735e3f6a5fa3e6550" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9d7a62253354567d2f5d0ca204410c5be15c360" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc9552761d71d8a95f58f319a3d0612172eb876f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bonus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leaderboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School-program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/change-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-multiselect.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/datatime.picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles-dist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily-challenge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extended-topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/bird-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/bird.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/bonus-bg-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/bonus-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/crown-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/footer-arow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/footer-tree-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/footer-tree-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/header-bg-clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/header-bg-tree-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/header-bg-tree-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/help-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-compare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-excell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-ppt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/icon-word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/language-eng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/language-vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/lesson-finish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/thumb-diamond-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/common/thumb-diamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/answer-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/avata-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/avata-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/avata-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/avata-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/avata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/challenges-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/challenges-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/challenges-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/challenges-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/challenges-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/courses-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/courses-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/courses-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/hightchart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icon-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icon-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icontab-discussion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icontab-overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icontab-peferences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/icontab-report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/img-user-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/img-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/lesson-slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/lesson-slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/lesson-slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/lesson-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/missions-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/play-stt-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/play-stt-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/program-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/program-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/progres-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/rank-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/thumb-school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/thumb-word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/usage-chart-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/usage-chart-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data/video-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap-multiselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/missions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/play-daily-challenge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/play-weekly-challenge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/teacher.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher-comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topic-report-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usage-reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/UVNVan_B.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/UVNVan_R.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/study.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly-challenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/ninox-design.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/composerJson.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R2u9urkGjlRdkSjhImVt2ch7Ag" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4461cfe-2a49-4260-8ec3-72d9d8e4233f" name="Default Changelist" comment="" />
+      <created>1564710541857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564710541857</updated>
+      <workItem from="1564710543303" duration="2077000" />
+      <workItem from="1564979491529" duration="21682000" />
+      <workItem from="1565232153259" duration="2432000" />
+      <workItem from="1565322507550" duration="4247000" />
+      <workItem from="1565573993581" duration="24801000" />
+      <workItem from="1566445465134" duration="3445000" />
+      <workItem from="1566535625383" duration="25908000" />
+      <workItem from="1567059971964" duration="2389000" />
+      <workItem from="1567127945761" duration="17967000" />
+      <workItem from="1568877364740" duration="60000" />
+    </task>
+    <task id="LOCAL-00001" summary="update References">
+      <created>1568864324335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568864324335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update References" />
+    <option name="LAST_COMMIT_MESSAGE" value="update References" />
+  </component>
+</project>

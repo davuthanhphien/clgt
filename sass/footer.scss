@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-07-2019, 10:00:00 PM
+    Author     : HUNG.ND
+*/
+/*----STYLE FOOTER----*/
+#footer {
+	background-color: #edd160;
+	position: relative;
+	&::after {
+		content: "";
+		background: url("../img/common/footer-tree-left.png") no-repeat;
+		width: 334px;
+		height: 302px;
+		left: 0;
+		bottom: 0;
+		position: absolute;
+		@media (max-width:$viewport-mobile) {
+			display: none;
+		}
+	}
+	&::before {
+		content: "";
+		background: url("../img/common/footer-tree-right.png") no-repeat;
+		width: 515px;
+		height: 319px;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		@media (max-width:$viewport-mobile) {
+			display: none;
+		}
+	}
+	.footer-inner {
+		background: url("../img/common/footer-arow.png") repeat-x;
+		padding-top:60px;
+		min-height: 320px;
+		position: relative;
+		z-index: 10;
+		@media (max-width:$viewport-mobile) {
+			min-height: 150px;
+			text-align: center;
+		}
+		.copyright {
+			font-style: normal;
+			color: #005180;
+			@media (max-width:$viewport-mobile) {
+				margin-bottom:5px; 
+			}
+		}
+		.social-list {
+			padding-left:15px;
+			a {
+				display: inline-block;
+				margin-right: 10px; 
+				color: #005180;
+				font-size: 26px;
+			}
+		}
+	}
+	.help-box {
+		transition: all ease 0.5s;
+		position: fixed;
+    right: 7%;
+    bottom: 100px;
+    z-index: 100;
+		@media (max-width:$viewport-mobile) {
+			right: 10px;
+			width: 80px;
+			bottom: 70px;
+		}
+		&.absolute {
+			position: absolute;
+			top:-110px;
+			@media (max-width:$viewport-mobile) {
+				top:-40px;
+			}
+		}
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
